@@ -1,0 +1,20 @@
+{
+  "version": "39.0.0",
+  "files": {
+    "aca5645f46d09515c2ad41a2c01bf8beb41bef43efe4121f3aac43c99c48d451": {
+      "source": {
+        "path": "AppSyncStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "757410338893-ap-northeast-2": {
+          "bucketName": "cdk-hnb659fds-assets-757410338893-ap-northeast-2",
+          "objectKey": "aca5645f46d09515c2ad41a2c01bf8beb41bef43efe4121f3aac43c99c48d451.json",
+          "region": "ap-northeast-2",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::757410338893:role/cdk-hnb659fds-file-publishing-role-757410338893-ap-northeast-2"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
