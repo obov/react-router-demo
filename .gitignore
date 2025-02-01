@@ -3,3 +3,5 @@
 
 front/.react-router/
 front/build/
+
+back/cdk.out/
