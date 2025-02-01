@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd front && npm install && npm run build",
+  "outputDirectory": "front/build",
+  "framework": "react-router",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/front/build/$1"
+    }
+  ]
+}
